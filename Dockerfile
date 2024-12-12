@@ -12,6 +12,6 @@ COPY . /app
 RUN npm install
 
 # Define the entry point for the container
-CMD ["npm", "dev"]
+CMD ["npm", "demo-dapp-react-ui"]
 
 EXPOSE 8080
