@@ -14,4 +14,4 @@ RUN npm install
 # Define the entry point for the container
 CMD ["npm", "dev"]
 
-EXPOSE 5173
+EXPOSE 8080
